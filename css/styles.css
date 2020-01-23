@@ -1,0 +1,84 @@
+body {
+	background-color: white;
+	text-align: center;
+	width: 85%;
+	margin: auto;
+}
+
+
+
+header {
+	width: 35%;
+	height: 3.5em;
+	margin: auto;
+	background-color: green;
+	color: yellow;
+}
+/*
+header h1 {
+	width: 50%;
+	margin: 0.5em auto;
+}
+*/
+
+
+footer {
+	width: 35%;
+	height: 2em;
+	margin: auto;
+	color: yellow;
+	background-color: green;
+}
+
+.inline p {
+	margin: 0.3em auto;
+	display: inline;
+}
+
+footer > :first-child {
+	float: left;
+	margin-left: 0.7em;
+}
+
+footer > :last-child {
+	float: right;
+	margin-right: 0.7em;
+}
+
+
+
+#menu_pricipal {
+	width: 40%;
+	margin: 1em auto;
+}
+
+.note_enchantee,
+.chic_fr,
+.delice_papilles,
+.palettes_gout,
+ img {
+	width: 35%;
+	/*margin: auto;*/
+}
+
+
+.note_enchantee,
+.chic_fr {
+	display: inline;
+}
+
+
+.delice_papilles,
+.palettes_gout {
+	display: inline;
+}
+
+
+h2 {
+	width: 15%;
+	color: yellow;
+	background-color: green;
+	margin: 0.5em auto;
+}
+
+

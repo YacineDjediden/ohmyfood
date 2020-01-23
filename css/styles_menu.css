@@ -1,0 +1,90 @@
+body {
+	background-color: white;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	width: 50%;
+	height: 3.5em;
+	margin: auto;
+	/*padding: 0.4em 0;*/
+	background-color: green;
+	color: yellow;
+}
+
+/*
+header h1 {
+	width: 50%;
+	margin: auto;
+}
+*/
+
+footer {
+	width: 50%;
+	height: 2em;
+	margin: auto;
+	/*padding: 0.3em;*/
+	color: yellow;
+	background-color: green;
+}
+
+
+.inline p {
+	margin: 0.3em auto;
+	display: inline;
+}
+
+footer > :first-child {
+	float: left;
+	padding-left: 0.7em;
+}
+
+footer > :last-child {
+	float: right;
+	padding-right: 0.7em;
+}
+
+/*
+.en_tete {
+	margin-bottom: 3em;
+}
+*/
+table {
+
+	background-color: pink;
+	width: 40%;
+	padding: 3em 0 4em 0;
+	margin: 1em auto;
+	margin-bottom: 2em;
+}
+
+
+caption {
+	font-size: 2em;
+	padding: 0.2em 0;
+}
+/*
+.en_tete {
+	padding-top: 3em;
+}
+*/
+tr > :first-child {
+	vertical-align: top;
+	min-width: 300px;
+	padding: 0.5em;
+	padding-left: 0.6em;
+}
+
+tr > :last-child {
+	padding-right: 0.5em;
+}
+
+td {	
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+
+
