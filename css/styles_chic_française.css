@@ -1,0 +1,40 @@
+
+h2,
+.nom_resto {
+	background-color: #FFF5FE;
+	color: #CC846E;
+	margin-bottom: 0;
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+
+table {
+background-image: linear-gradient(#FFF5FE, #F9F9F9, #E5D1FD);
+margin-top: 0;
+padding-bottom: 2em
+}
+
+.marron {
+	color:  #CC846E;
+}
+
+.violet {
+	color: #C49DEA;
+}
+
+.bleu {
+	color: #D8BBEF;
+}
+
+/*
+tr:hover {
+	background-color: yellow;
+}
+
+
+
+/*
+th {
+	color: #CC846E;
+}
+*/

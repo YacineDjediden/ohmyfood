@@ -1,0 +1,89 @@
+body {
+	font-size: 1em;
+	width: 90%;
+}
+
+header {
+	width: 60%;
+	font-size: 1.4em;
+}
+
+footer {
+	width: 60%;
+	margin-top: 2em;
+	font-size: 1.3em;
+}
+
+h2,
+.nom_resto {
+	font-family: 'Kalam', cursive;
+	width: 50%;
+	margin: 1em auto;
+	margin-bottom: 0.2em;
+	font-size: 2em;
+	background-color: white;
+	color: #7A5457;
+}
+
+h3, 
+h4 {
+	font-family: 'Satisfy', cursive;
+	width: 50%;
+	margin: auto;
+	background-color: #FCDFDB;
+	color: #7A5457;
+}
+
+h3 {
+	padding-top: 2em;
+	font-size: 2em;
+}
+
+h4 {
+	padding-bottom: 3em;
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+.fa-music {
+	color: #F16362;
+	font-size: 48px;
+}
+
+ h4
+ .fa-music {
+	font-size: 24px;
+}
+
+table {
+	font-family: 'Kalam', cursive;
+	background-color: #FCDFDB;
+	color: #7A5457;
+	width: 50%;
+	padding: 1em 2em;
+	margin: auto;
+}
+
+th {
+	font-size: 1.2em;
+	padding-top: 0.5em;
+
+}
+
+tr > :first-child {
+	vertical-align: top;
+	min-width: 300px;
+	padding-bottom: 0.5em;
+}
+
+tr > :last-child {
+	padding-bottom: 0.5em;
+}
+
+
+td {	
+	text-align: justify;
+}
+
+
+

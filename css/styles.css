@@ -5,32 +5,26 @@ body {
 	margin: auto;
 }
 
-
-
 header {
 	width: 35%;
-	height: 3.5em;
+	height: 3em;
 	margin: auto;
-	background-color: green;
-	color: yellow;
+	font-size: 1em;
+	background-color: #569C87;
+	color: #F5C74A;
 }
-/*
-header h1 {
-	width: 50%;
-	margin: 0.5em auto;
-}
-*/
-
 
 footer {
 	width: 35%;
 	height: 2em;
 	margin: auto;
-	color: yellow;
-	background-color: green;
+	font-size: 1em;
+	color: #F5C74A;
+	background-color: #569C87;
 }
 
-.inline p {
+
+footer p {
 	margin: 0.3em auto;
 	display: inline;
 }
@@ -45,40 +39,26 @@ footer > :last-child {
 	margin-right: 0.7em;
 }
 
-
-
-#menu_pricipal {
+#corp_menu_pricipal {
 	width: 40%;
 	margin: 1em auto;
+}
+
+ img {
+	width: 35%;
 }
 
 .note_enchantee,
 .chic_fr,
 .delice_papilles,
-.palettes_gout,
- img {
-	width: 35%;
-	/*margin: auto;*/
-}
-
-
-.note_enchantee,
-.chic_fr {
-	display: inline;
-}
-
-
-.delice_papilles,
 .palettes_gout {
 	display: inline;
 }
 
-
 h2 {
 	width: 15%;
-	color: yellow;
-	background-color: green;
+	color: #F5C74A;
+	background-color: #569C87;
 	margin: 0.5em auto;
+	font-size: 1.2em;
 }
-
-
