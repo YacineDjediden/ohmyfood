@@ -6,25 +6,29 @@ body {
 }
 
 header {
-	width: 35%;
-	height: 3em;
+	width: 40%;
+	height: 3.2em;
 	margin: auto;
-	font-size: 1em;
 	background-color: #569C87;
-	color: #F5C74A;
+}
+
+ h1 {
+ 	font-size: 2em;
+ 	color: #F5C74A;
+ 	margin: auto;
 }
 
 footer {
-	width: 35%;
+	width: 40%;
 	height: 2em;
 	margin: auto;
-	font-size: 1em;
+	margin-top: 1em;
 	color: #F5C74A;
 	background-color: #569C87;
 }
 
-
 footer p {
+	font-size: 1em;
 	margin: 0.3em auto;
 	display: inline;
 }
@@ -40,12 +44,14 @@ footer > :last-child {
 }
 
 #corp_menu_pricipal {
-	width: 40%;
-	margin: 1em auto;
+	width: 45%;
+	margin: 1.2em auto;
 }
 
- img {
+img {
 	width: 35%;
+	margin-bottom: 1em;
+	border: 3px solid #F6EEF5;
 }
 
 .note_enchantee,
@@ -55,10 +61,21 @@ footer > :last-child {
 	display: inline;
 }
 
-h2 {
-	width: 15%;
+
+.chic_fr,
+.palettes_gout {
+	margin-left: 1em;
+}
+
+div p {
+	width: 16%;
 	color: #F5C74A;
 	background-color: #569C87;
-	margin: 0.5em auto;
+	margin: auto;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	height: 1.3em;
 	font-size: 1.2em;
+	border: 1px solid #569C87;
+	border-radius: 20% 20%;
 }
