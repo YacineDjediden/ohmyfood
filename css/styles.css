@@ -1,10 +1,11 @@
 body {
 	background-color: white;
 	text-align: center;
-	width: 85%;
+	width: 90%;
 	margin: auto;
 }
 
+/*.................*/
 header {
 	width: 40%;
 	height: 3.2em;
@@ -18,64 +19,67 @@ header {
  	margin: auto;
 }
 
+/*.......................*/
 footer {
 	width: 40%;
 	height: 2em;
 	margin: auto;
 	margin-top: 1em;
-	color: #F5C74A;
 	background-color: #569C87;
 }
 
-footer p {
-	font-size: 1em;
-	margin: 0.3em auto;
-	display: inline;
-}
-
-footer > :first-child {
+.footer > :first-child {
 	float: left;
-	margin-left: 0.7em;
+	margin: 0.3em 0.3em;
 }
 
-footer > :last-child {
+.footer > :last-child {
 	float: right;
-	margin-right: 0.7em;
+	margin: 0.3em 0.3em;
+
 }
 
-#corp_menu_pricipal {
-	width: 45%;
-	margin: 1.2em auto;
+/*................*/
+.btn {
+	font-size: 0.9em;
+	color: #F5C74A;
+	background-color: #569C87;
+	border: 2px solid #569C87;
 }
 
-img {
+/*.................*/
+#menu_principal {
 	width: 35%;
-	margin-bottom: 1em;
-	border: 3px solid #F6EEF5;
+	margin: 1.2em auto;
+	/*border: 2px solid red;*/
 }
 
 .note_enchantee,
-.chic_fr,
+.chic_fr {
+	display: inline;
+}
+
 .delice_papilles,
 .palettes_gout {
 	display: inline;
 }
 
-
 .chic_fr,
 .palettes_gout {
 	margin-left: 1em;
+	margin-top: 0.5em;
 }
 
-div p {
+img {
+	width: 37%;
+	border: 2px solid #EAEAEA;
+}
+
+.prochainement {
 	width: 16%;
 	color: #F5C74A;
 	background-color: #569C87;
 	margin: auto;
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
-	height: 1.3em;
 	font-size: 1.2em;
-	border: 1px solid #569C87;
-	border-radius: 20% 20%;
+	border-radius: 10px;
 }

@@ -1,19 +1,30 @@
 body {
-	font-size: 1em;
-	width: 90%;
+	width: 100%;
 }
 
+/*.................*/
 header {
 	width: 60%;
-	font-size: 1.4em;
 }
 
+h1 {
+	font-size: 2.5em;
+}
+
+
+/*..................*/
 footer {
 	width: 60%;
 	margin-top: 2em;
 	font-size: 1.3em;
 }
 
+/*....................*/
+.btn {
+	font-size: 1em;
+}
+
+/*..................*/
 h2,
 .nom_resto {
 	font-family: 'Kalam', cursive;
@@ -35,7 +46,7 @@ h4 {
 }
 
 h3 {
-	padding-top: 2em;
+	/*padding-top: 2em;*/
 	font-size: 2em;
 }
 
