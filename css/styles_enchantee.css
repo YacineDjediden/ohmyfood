@@ -20,13 +20,13 @@ footer {
 }
 
 /*....................*/
-.btn {
+/*.btn {
 	font-size: 1em;
 }
-
+*/
 /*..................*/
-h2,
-.nom_resto {
+
+h2 {
 	font-family: 'Kalam', cursive;
 	width: 50%;
 	margin: 1em auto;
@@ -36,34 +36,45 @@ h2,
 	color: #7A5457;
 }
 
-h3, 
-h4 {
+i, p  {
+	display: inline;
+}
+
+h3 {
 	font-family: 'Satisfy', cursive;
+	font-size: 2em;
 	width: 50%;
 	margin: auto;
+	padding-bottom: 1em;
 	background-color: #FCDFDB;
 	color: #7A5457;
 }
 
-h3 {
-	/*padding-top: 2em;*/
-	font-size: 2em;
+.icone_haut,
+.icone_bas {
+	width: 50%;
+	margin: auto;
+	background-color: #FCDFDB;
 }
 
-h4 {
-	padding-bottom: 3em;
-	padding-top: 1em;
-	font-size: 1.5em;
-}
-
-.fa-music {
+.icone_haut i {
+	margin-top: 1em;
 	color: #F16362;
 	font-size: 48px;
+	
 }
 
- h4
- .fa-music {
+ .icone_bas i {
+ 	color: #F16362;
 	font-size: 24px;
+	margin-right: 0.5em;
+}
+
+.icone_bas p {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	font-family: 'Kalam', cursive;
+	font-size: 1.3em;
 }
 
 table {
@@ -78,7 +89,13 @@ table {
 th {
 	font-size: 1.2em;
 	padding-top: 0.5em;
+}
 
+th::before {
+	content: '';
+	width: 50px;
+	height: 20px;
+	background: blue;
 }
 
 tr > :first-child {

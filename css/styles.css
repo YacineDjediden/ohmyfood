@@ -1,8 +1,18 @@
+html {
+  height: 100%;
+}
+
 body {
 	background-color: white;
 	text-align: center;
 	width: 90%;
+	min-height: 100%;
+	margin: 0;
+  	padding: 0;
 	margin: auto;
+	position: relative;
+	border: 1px solid red;
+
 }
 
 /*.................*/
@@ -22,29 +32,22 @@ header {
 /*.......................*/
 footer {
 	width: 40%;
-	height: 2em;
-	margin: auto;
-	margin-top: 1em;
+	height: 2.5em;
+	margin: 1em auto;
 	background-color: #569C87;
+	position: absolute; bottom: 0; left: 0; right: 0;
+	border: 1px solid red;
 }
 
-.footer > :first-child {
+footer a:first-child {
 	float: left;
 	margin: 0.3em 0.3em;
 }
 
-.footer > :last-child {
+footer a:last-child {
 	float: right;
 	margin: 0.3em 0.3em;
 
-}
-
-/*................*/
-.btn {
-	font-size: 0.9em;
-	color: #F5C74A;
-	background-color: #569C87;
-	border: 2px solid #569C87;
 }
 
 /*.................*/
@@ -75,11 +78,55 @@ img {
 	border: 2px solid #EAEAEA;
 }
 
+#menu_principal img:hover {
+	transform: scale(1.2);
+	overflow: hidden;
+}
+
+/*..............................*/
 .prochainement {
-	width: 16%;
-	color: #F5C74A;
+	width: 20%;
 	background-color: #569C87;
 	margin: auto;
+	padding: 0.5em;
 	font-size: 1.2em;
 	border-radius: 10px;
 }
+
+/*................*/
+
+.btn {
+	font-size: 0.9em;
+	color: #F5C74A;
+/*	border: 2px double black;*/
+	padding: 0.3em;
+	/*cursor: pointer;*/
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+transform: translate3d(0, 0, 0);
+backface-visibility: hidden;
+perspective: 1000px;
+
+background-color: #397f00;
+/*transform: scale(1.2);*/
+}
+
+@keyframes shake {
+10%, 90% {
+transform: translate3d(-1px, 0, 0);
+}
+20%, 80% {
+transform: translate3d(2px, 0, 0);
+}
+30%, 50%, 70% {
+transform: translate3d(-4px, 0, 0);
+}
+40%, 60% {
+transform: translate3d(4px, 0, 0);
+}
+}
+	
