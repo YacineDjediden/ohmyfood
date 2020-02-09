@@ -1,117 +1,14 @@
-body {
-	width: 100%;
+.plat {
+	background-color: #fcdfdb;
+	margin: 0 50px;
 }
 
-/*.................*/
-header {
-	width: 60%;
+.plat ul {
+	list-style-type: none;
+	text-align: left;
+	padding: 0 40px;
 }
 
-h1 {
-	font-size: 2.5em;
+.prix {
+	float: right;
 }
-
-
-/*..................*/
-footer {
-	width: 60%;
-	margin-top: 2em;
-	font-size: 1.3em;
-}
-
-/*....................*/
-/*.btn {
-	font-size: 1em;
-}
-*/
-/*..................*/
-
-h2 {
-	font-family: 'Kalam', cursive;
-	width: 50%;
-	margin: 1em auto;
-	margin-bottom: 0.2em;
-	font-size: 2em;
-	background-color: white;
-	color: #7A5457;
-}
-
-i, p  {
-	display: inline;
-}
-
-h3 {
-	font-family: 'Satisfy', cursive;
-	font-size: 2em;
-	width: 50%;
-	margin: auto;
-	padding-bottom: 1em;
-	background-color: #FCDFDB;
-	color: #7A5457;
-}
-
-.icone_haut,
-.icone_bas {
-	width: 50%;
-	margin: auto;
-	background-color: #FCDFDB;
-}
-
-.icone_haut i {
-	margin-top: 1em;
-	color: #F16362;
-	font-size: 48px;
-	
-}
-
- .icone_bas i {
- 	color: #F16362;
-	font-size: 24px;
-	margin-right: 0.5em;
-}
-
-.icone_bas p {
-	padding-bottom: 1em;
-	padding-top: 1em;
-	font-family: 'Kalam', cursive;
-	font-size: 1.3em;
-}
-
-table {
-	font-family: 'Kalam', cursive;
-	background-color: #FCDFDB;
-	color: #7A5457;
-	width: 50%;
-	padding: 1em 2em;
-	margin: auto;
-}
-
-th {
-	font-size: 1.2em;
-	padding-top: 0.5em;
-}
-
-th::before {
-	content: '';
-	width: 50px;
-	height: 20px;
-	background: blue;
-}
-
-tr > :first-child {
-	vertical-align: top;
-	min-width: 300px;
-	padding-bottom: 0.5em;
-}
-
-tr > :last-child {
-	padding-bottom: 0.5em;
-}
-
-
-td {	
-	text-align: justify;
-}
-
-
-
