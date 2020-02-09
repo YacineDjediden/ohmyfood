@@ -1,65 +1,70 @@
 html {
-  height: 100%;
+	background-color: #DDD;
+    /*height: 100%;*/
 }
 
 body {
 	background-color: white;
 	text-align: center;
-	width: 90%;
-	min-height: 100%;
-	margin: 0;
-  	padding: 0;
+	max-width: 700px;
+	padding-bottom: 32px;
 	margin: auto;
-	position: relative;
-	border: 1px solid red;
-
 }
 
 /*.................*/
 header {
-	width: 40%;
-	height: 3.2em;
-	margin: auto;
 	background-color: #569C87;
 }
 
- h1 {
- 	font-size: 2em;
+h1 {
+ 	font-size: 46px;
  	color: #F5C74A;
- 	margin: auto;
+ 	margin: 0;
+ 	padding: 26px;
+	font-family: "Roboto";
 }
 
 /*.......................*/
 footer {
-	width: 40%;
-	height: 2.5em;
-	margin: 1em auto;
-	background-color: #569C87;
-	position: absolute; bottom: 0; left: 0; right: 0;
-	border: 1px solid red;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
-footer a:first-child {
-	float: left;
-	margin: 0.3em 0.3em;
+footer div {
+	text-align: left;
+	background-color: #569C87;
+    padding: 26px 0;
+    width: 100%;
+    max-width: 700px;
+    display: inline-block;
+}
+
+footer a {
+	font-size: 26px;
+    color: #F5C74A;
+    margin: 0;
+    font-family: "Roboto";
+	text-decoration: none;
 }
 
 footer a:last-child {
 	float: right;
-	margin: 0.3em 0.3em;
-
 }
-
 /*.................*/
-#menu_principal {
-	width: 35%;
-	margin: 1.2em auto;
-	/*border: 2px solid red;*/
+#conteneur {
+	margin: 0 auto 100px;
 }
 
-.note_enchantee,
-.chic_fr {
-	display: inline;
+.menu {
+	width: 33%;
+	margin: 4%;
+	padding: 12% 0;
+	background-color: #fcdfdb;
+	display: inline-block;
+
 }
 
 .delice_papilles,
@@ -78,7 +83,7 @@ img {
 	border: 2px solid #EAEAEA;
 }
 
-#menu_principal img:hover {
+#conteneur img:hover {
 	transform: scale(1.2);
 	overflow: hidden;
 }
@@ -93,26 +98,13 @@ img {
 	border-radius: 10px;
 }
 
-/*................*/
-
-.btn {
-	font-size: 0.9em;
-	color: #F5C74A;
-/*	border: 2px double black;*/
-	padding: 0.3em;
-	/*cursor: pointer;*/
-	text-decoration: none;
-	border-radius: 5px;
-}
-
-.btn:hover {
-animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-transform: translate3d(0, 0, 0);
-backface-visibility: hidden;
-perspective: 1000px;
-
-background-color: #397f00;
-/*transform: scale(1.2);*/
+footer a:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+	background-color: #397f00;
+	/*transform: scale(1.2);*/
 }
 
 @keyframes shake {
@@ -129,4 +121,3 @@ transform: translate3d(-4px, 0, 0);
 transform: translate3d(4px, 0, 0);
 }
 }
-	
