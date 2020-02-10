@@ -1,23 +1,25 @@
+#conteneur .plat {
+	background-color: #FDFFFD;
+	color: #8F8F8F;
+	margin: 30px 50px;
+	padding-bottom: 30px;
+	font-family: "Kalam";
+}
+
 h2 {
-	background-color: #FDFFFD;
-	color: #4bd11b;
-	font-family: 'Crafty Girls', cursive;
-
-	font-size: 2.8em;
-	margin-bottom: 0;
-	padding-top: 1em;
-	padding-bottom: 0.6em;
+	color: #61B14D;
 }
 
-table {
-	background-color: #FDFFFD;
+h2 span {
+	color: #BEFF7F;
 }
 
+.plat ul {
+	list-style-type: none;
+	text-align: left;
+	padding: 0 40px;
+}
 
-
-tr,
-th {
-	color: black;
-/*	font-size: 1.5em;*/
-
+.prix {
+	float: right;
 }
