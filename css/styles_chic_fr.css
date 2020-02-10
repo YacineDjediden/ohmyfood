@@ -1,0 +1,48 @@
+.plat {
+	background-color: #FFF5FE;
+	margin: 0 50px;
+}
+
+.plat h2 {
+	color: #9A6BFC;
+	margin: 50px;
+	padding-top: 60px;
+}
+
+h2 span {
+	color: #D19282;
+}
+
+.plat ul {
+	list-style-type: none;
+	text-align: left;
+	padding: 0 40px;
+}
+
+.prix {
+	float: right;
+}
+
+.maron h3 {
+	color: #CA7D22;
+}
+
+.maron ul {
+	color: #E4B890;
+}
+
+.violet h3 {
+	color: #B580AB;
+}
+
+.violet ul {
+	color: #D7B7D2;
+}
+
+.bleu h3 {
+	color: #9B80DB;
+}
+
+.bleu ul {
+	color: #D2C2EE;
+}
