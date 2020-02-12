@@ -1,4 +1,11 @@
+.conteneur h2 {
+	margin: 20px 0 10px 0;
+	font-weight: bold;
+	font-size: 30px;
+}
+
 .plat {
+	font-family: "Patrick+Hand";
 	background-color: #fcdfdb;
 	margin: 0 50px;
 }
@@ -6,9 +13,85 @@
 .plat ul {
 	list-style-type: none;
 	text-align: left;
-	padding: 0 40px;
+	margin-top: 15px;
+	padding: 0px 30px 30px;
+	color: #7A5457;
+}
+
+ul li {
+	width: 90%; 
+	margin-bottom: 10px;
+}
+
+.haut-conteneur .music {
+	font-size: 60px;
+	padding: 50px 0 0 0;
+	margin-bottom: 20px 0 0 0;
+}
+
+.haut-conteneur h3 {
+	font-family: Satisfy;
+	color: #4B2227;
+	font-size: 30px;
+	padding: 0 0 10px 0;
+	margin: 10px 0 10px 0;
+}
+
+h4 {
+	font-size: 20px;
+	color: #593136;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+
+.bas-conteneur .music {
+	font-size: 36px;
+	padding: 40px 0 40px 0;
+	margin-right: 5px;
+}
+
+.bas-conteneur span {
+	color : #4B2227;
+	font-size: 22px;
+	font-family: Satisfy;
+	font-weight: bold;
 }
 
 .prix {
 	float: right;
 }
+/*
+.prix::after {
+	content: "€";
+}
+*/
+
+/*
+
+
+h3:before{
+content: "";
+display:block;
+width: 120px;
+height:2px;
+background: #000;
+position: absolute;
+left: 0;
+top: 50%;
+z-index: -2;
+}
+h3:after{
+content: "";
+display:block;
+width: 120px;
+height:2px;
+background: #000;
+position: absolute;
+right: 0;
+top: 50%;
+z-index: -2;
+}
+span{
+background: #fff
+}
+*/

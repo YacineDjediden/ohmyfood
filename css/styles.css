@@ -20,7 +20,7 @@ h1 {
 	color: #F5C74A;
 	margin: 0;
 	padding: 26px;
-	font-family: "Roboto";
+	font-family: Roboto;
 }
 
 footer {
@@ -44,7 +44,7 @@ footer a {
 	font-size: 18px;
 	color: #F5C74A;
 	margin: 0;
-	font-family: "Roboto";
+	font-family: Roboto;
 	text-decoration: none;
 }
 
@@ -65,7 +65,6 @@ footer a:last-child {
 #conteneur .menu {
 	width: 33%;
 	margin: 4%;
-	/*padding: 18% 0;*/
 	display: inline-block;
 	vertical-align: top;
 	box-shadow: 0 0 4px 4px #ddd;
@@ -73,12 +72,13 @@ footer a:last-child {
 }
 
 .menu i {
-	font-size: 36px;
+	font-size: 30px;
 	margin: 0;
 	padding: 0;
 }
 
 .music {
+	font-size: 72px;
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -123,11 +123,6 @@ footer a:last-child {
 	font-family: Satisfy;
 }
 
-.menu-1 h2 {
-	/*line-height: 27px;*/
-	/*margin: 16px 0;*/
-}
-
 .menu-2 h2 {
 	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
 	-webkit-background-clip: text;
@@ -165,8 +160,10 @@ footer a:last-child {
 	font-family: Kalam;
 }
 
-#conteneur .menu:hover {
+#conteneur .menu div:hover {
 	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
 }
 
 /* section prochainement */
@@ -183,19 +180,6 @@ footer a:last-child {
 	color: #F5C74A;
 	text-decoration: none;
 }
-
-.prochainement .points {
-   display: none;
-}
-
-.prochainement:hover .points {
-   display: block;
-}
-
-.prochainement:hover a {
-   display: none;
-}
-
 
 /* le pied du page */
 footer a:hover {
@@ -226,36 +210,25 @@ footer a:hover {
    text-align: center;
 }
 
-.points > div {
-   width: 18px;
-   height: 18px;
+.points > span {
+   width: 12px;
+   height: 12px;
    background-color: #F5C74A;
    border-radius: 100%;
    display: inline-block;
-   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
 
 .points .bounce1 {
-   -webkit-animation-delay: -0.32s;
    animation-delay: -0.32s;
 }
 
 .points .bounce2 {
-   -webkit-animation-delay: -0.16s;
    animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-   0%, 80%, 100% { -webkit-transform: scale(0) }
-   40% {
-   -webkit-transform: scale(1.0)
-   }
 }
 
 @keyframes sk-bouncedelay {
    0%, 80%, 100% { 
-   -webkit-transform: scale(0);
    transform: scale(0);
 }
    40% { 
@@ -263,3 +236,42 @@ footer a:hover {
     transform: scale(1.0);
    }
 }
+
+
+
+/*
+
+#conteneur .menu:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
+}
+
+#conteneur .menu h2:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
+	font-weight: bold;
+}
+
+#conteneur .menu span:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	opacity: 0.33;
+	font-weight: bold;
+}
+
+/*
+.prochainement .points {
+   /*display: inline-block;*//*
+}
+/*
+.prochainement:hover .points {
+   display: block;
+}
+
+.prochainement:hover a {
+   display: none;
+}
+
+*/
