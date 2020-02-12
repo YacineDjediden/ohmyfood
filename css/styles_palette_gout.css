@@ -1,4 +1,4 @@
-.conteneur .plat {
+#conteneur .plat {
 	background-color: #FDFFFD;
 	color: #8F8F8F;
 }
@@ -32,38 +32,4 @@
 }
 
 .bien-terminer ul {
-}
-/*
-#conteneur .plat {
-	background-color: #FDFFFD;
-	color: #8F8F8F;
-	margin: 30px 50px;
-	padding-bottom: 30px;
-	font-family: "Kalam";
-}
-/*
-h2 {
-	color: #61B14D;
-}
-
-h2 span {
-	color: #BEFF7F;
-}
-*/
-/*
-.plat h2 {
-	font-size: 50px;
-	background: -webkit-linear-gradient(380deg, #41963C, #CFFEA3);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.plat ul {
-	list-style-type: none;
-	text-align: left;
-	padding: 0 40px;
-}
-
-.prix {
-	float: right;
 }
