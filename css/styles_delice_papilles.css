@@ -1,8 +1,31 @@
-#conteneur .plat {
+
+.plat {
 	background-color: #EDEFEF;
-	color: #4A4A4A;
+	color: #565757;
+	font-family: kalam;
 }
 
 .plat h2 {
-	color: #2D95F7;
+	font-family: 'Homemade Apple', cursive;
+	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bien-commencer h3 {
+}
+
+.bien-commencer ul {
+}
+
+.bien-continuer h3 {
+}
+
+.bien-continuer ul {
+}
+
+.bien-terminer h3 {
+}
+
+.bien-terminer ul {
 }

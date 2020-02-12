@@ -1,3 +1,39 @@
+.conteneur .plat {
+	background-color: #FDFFFD;
+	color: #8F8F8F;
+}
+
+.plat h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 48px;
+	background: -webkit-linear-gradient(180deg, #CFFEA3, #41963C);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.plat ul {
+	padding: 0px 10px;
+}
+
+
+.bien-commencer h3 {
+}
+
+.bien-commencer ul {
+}
+
+.bien-continuer h3 {
+}
+
+.bien-continuer ul {
+}
+
+.bien-terminer h3 {
+}
+
+.bien-terminer ul {
+}
+/*
 #conteneur .plat {
 	background-color: #FDFFFD;
 	color: #8F8F8F;
@@ -5,13 +41,21 @@
 	padding-bottom: 30px;
 	font-family: "Kalam";
 }
-
+/*
 h2 {
 	color: #61B14D;
 }
 
 h2 span {
 	color: #BEFF7F;
+}
+*/
+/*
+.plat h2 {
+	font-size: 50px;
+	background: -webkit-linear-gradient(380deg, #41963C, #CFFEA3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .plat ul {
