@@ -72,13 +72,12 @@ footer a:last-child {
 }
 
 .menu i {
-	font-size: 30px;
+	font-size: 40px;
 	margin: 0;
 	padding: 0;
 }
 
 .music {
-	font-size: 72px;
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -91,7 +90,7 @@ footer a:last-child {
 }
 
 .menu span {
-	font-size: 26px;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 }
@@ -100,7 +99,7 @@ footer a:last-child {
 	background-color: #fcdfdb;
 	color: #3e151b;
 	font-family: "Kalam";
-	padding: 14% 0;
+	padding: 15% 0;
 }
 
 .menu-2,

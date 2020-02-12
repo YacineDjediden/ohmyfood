@@ -44,6 +44,10 @@ h4 {
 	margin-bottom: 0;
 }
 
+h4:hover {
+	text-decoration:underline;
+}
+
 .bas-conteneur .music {
 	font-size: 36px;
 	padding: 40px 0 40px 0;
