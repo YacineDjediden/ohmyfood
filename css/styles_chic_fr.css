@@ -11,16 +11,16 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.plat ul {
+ul {
 	font-size: 18px;
 	list-style-type: none;
-	text-align: left;
 	margin-top: 15px;
 	padding: 0px 30px 30px;
 }
 
 ul li {
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 .prix {
