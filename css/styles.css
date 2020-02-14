@@ -5,22 +5,31 @@ html {
 body {
 	background-color: white;
 	text-align: center;
+	padding: 0 0 30px 0;
+}
+
+body, header, footer {
 	max-width: 700px;
 	width: 100%;
 	margin: auto;
-	padding-bottom: 32px;
 }
 
-header {
+header,
+footer {
 	background-color: #569C87;
 }
 
 h1 {
 	font-size: 46px;
-	color: #F5C74A;
 	margin: 0;
 	padding: 26px;
-	font-family: Roboto;
+}
+
+h1,
+footer a,
+.prochainement a {
+	color: #F5C74A;
+	font-family: Roboto, cursive;
 }
 
 footer {
@@ -28,42 +37,33 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	text-align: center;
-}
-
-footer div {
-	text-align: left;
-	background-color: #569C87;
-	padding: 20px 0;
-	width: 100%;
-	max-width: 700px;
 	display: inline-block;
 }
 
 footer a {
 	font-size: 18px;
-	color: #F5C74A;
-	margin: 0;
-	font-family: Roboto;
 	text-decoration: none;
 }
 
 footer a:first-child {
 	float: left;
-	padding-left: 25px;
+	padding: 20px 0px 0 25px ;
 }
+
 footer a:last-child {
 	float: right;
-	padding-right: 25px;
+	padding: 20px 25px 20px 0;
 }
 
 /* 100px de bootom pour pouvoir fixer le footer sans cacher le contenue de la page */
-#conteneur {
-	margin: 0 auto 100px;
+#conteneur-ohmyfood,
+#conteneur-note-enchantee {
+	margin: 20px auto 100px;
 }
 
-#conteneur .menu {
-	width: 33%;
+.menu {
+	width: 37%;
+	height: 350px;
 	margin: 4%;
 	display: inline-block;
 	vertical-align: top;
@@ -71,42 +71,8 @@ footer a:last-child {
 	text-decoration: none;
 }
 
-.menu i {
-	font-size: 30px;
-	margin: 0;
-	padding: 0;
-}
-
-.music {
-	font-size: 72px;
-	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.menu h2 {
-	font-size: 20px;
-	margin: 0;
-	padding: 0;
-}
-
-.menu span {
-	font-size: 26px;
-	margin: 0;
-	padding: 0;
-}
-
 .menu-1 {
 	background-color: #fcdfdb;
-	color: #3e151b;
-	font-family: "Kalam";
-	padding: 14% 0;
-}
-
-.menu-2,
-.menu-3,
-.menu-4 {
-	padding: 18% 0;
 }
 
 .menu-2 {
@@ -115,69 +81,104 @@ footer a:last-child {
 
 .menu-3 {
 	background-color: #f9f9f9;
-	font-family: Satisfy;
 }
 
 .menu-4 {
 	background-color: #fdfffd;
-	font-family: Satisfy;
+}
+
+.menu .music {
+	font-size: 35px;
+	margin: 100px 0 10px 0;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.menu-1 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 25px;
+	color: #4B2227;
+	margin: 0 0 10px 0;
+}
+
+.menu-2
+.menu-3
+.menu-4, 
+h2 {
+	margin: 140px 0 10px 0;
 }
 
 .menu-2 h2 {
+	font-family: 'Patrick+Hand', cursive;
+	font-size: 22px;
 	background: -webkit-linear-gradient(180deg, #9865fb, #e1a162);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .menu-3 h2 {
+	font-family: Satisfy, cursive;
+	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #148cfb, #133fe1);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .menu-4 h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 26px;
 	background: -webkit-linear-gradient(180deg, #c5ff8d, #489945);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .menu-1 span {
+	font-size: 22px;
+	font-family: Kalam, cursive;
+	color: #3e151b;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .menu-2 span {
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
 	color: #c77412;
 	font-weight: bold;
 }
 
 .menu-3 span {
-	font-family: Kalam;
+	font-family: Satisfy, cursive;
+	font-size: 24px;
 	color: #0887fb;
 }
 
 .menu-4 span {
+	font-family: Satisfy, cursive;
+	font-size: 24px;
 	color: #72bf56;
-	font-family: Kalam;
 }
 
-#conteneur .menu div:hover {
+.menu div:hover {
 	transform: scale(1.1);
 	overflow: hidden;
 	opacity: 0.33;
 }
 
-/* section prochainement */
+/* Bouton prochainement */
 .prochainement {
 	width: 30%;
+	margin: 20px auto;
 	background-color: #569C87;
-	margin: auto;
-	padding: 0.5em;
-	font-size: 1.2em;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
 	border-radius: 10px;
 }
 
 .prochainement a {
-	color: #F5C74A;
+	/*color: #F5C74A;*/
 	text-decoration: none;
 }
 
@@ -202,6 +203,7 @@ footer a:hover {
    40%, 60% {
    transform: translate3d(4px, 0, 0);
 }
+
 }
 
 .points {
@@ -239,39 +241,110 @@ footer a:hover {
 
 
 
-/*
-
-#conteneur .menu:hover {
-	transform: scale(1.1);
-	overflow: hidden;
-	opacity: 0.33;
+/* plat la note enchantée */
+#conteneur-note-enchantee h2 {
+	margin: 20px 0 10px 0;
+	font-size: 25px;
+	color: #353535;
 }
 
-#conteneur .menu h2:hover {
-	transform: scale(1.1);
-	overflow: hidden;
-	opacity: 0.33;
+.plat {
+	/*font-family: "Patrick+Hand";*/
+	background-color: #fcdfdb;
+	color: #3D1319;
+	margin: 0 20px 0 20px;
+}
+
+
+.haut-plat .music {
+	font-size: 60px;
+	padding: 50px 0 0 0;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.haut-plat h3 {
+	font-family: Satisfy;
+	/*color: #3D1319;*/
+	font-size: 40px;
+	padding: 0 0 20px 0;
+	margin: 10px 0 40px 0;
+}
+
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3 {
+	font-family: Satisfy;
+	font-size: 25px;
+}
+
+h3:hover {
+	/*text-decoration:underline;*/
+}
+
+
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3::before,
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3::after {
+	content: '';
+	display: inline-block;
+	height:4px;
+	background: #593136;
+	/*position: absolute;*/
+}
+
+.categorie-entree h3::before,
+.categorie-entree h3::after {
+	width: 170px;
+}
+
+.categorie-entree h3::before {
+	text-align: left;
+	margin: 0 40px 0 0px;
+}
+
+.categorie-entree h3::after {
+	text-align: right;
+	margin: 0 0px 0 40px;
+}
+
+ul {
+	font-size: 17px;
+	list-style-type: none;
+	margin: 20px 30px 50px 30px;
+}
+
+ul li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.prix {
+	float: right;
+}
+
+.bas-plat .music {
+	font-size: 36px;
+	padding: 40px 0 40px 0;
+	margin-right: 5px;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bas-plat span {
+	color : #4B2227;
+	font-size: 25px;
+	font-family: Satisfy;
 	font-weight: bold;
 }
 
-#conteneur .menu span:hover {
-	transform: scale(1.1);
-	overflow: hidden;
-	opacity: 0.33;
-	font-weight: bold;
-}
-
 /*
-.prochainement .points {
-   /*display: inline-block;*//*
+.prix::after {
+	content: "€";
 }
-/*
-.prochainement:hover .points {
-   display: block;
-}
-
-.prochainement:hover a {
-   display: none;
-}
-
 */

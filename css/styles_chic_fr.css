@@ -1,7 +1,6 @@
 .plat {
 	padding: 30px 50px;
 	background-color: #FFF5FE;
-	font-family: "Ariel";
 }
 /* Couleur du <h2> (Le chic à la française */ 
 .plat h2 {
@@ -12,16 +11,16 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.plat ul {
+ul {
 	font-size: 18px;
 	list-style-type: none;
-	text-align: left;
 	margin-top: 15px;
 	padding: 0px 30px 30px;
 }
 
 ul li {
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 .prix {
@@ -32,6 +31,10 @@ ul li {
 	font-size: 20px;
 	padding-bottom: 0px;
 	margin-bottom: 0;
+}
+
+.plat h3:hover {
+	text-decoration:underline;
 }
 
 .maron h3 {

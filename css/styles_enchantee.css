@@ -1,97 +1,106 @@
-#conteneur h2 {
+#conteneur-note-enchantee h2 {
 	margin: 20px 0 10px 0;
 	font-weight: bold;
 	font-size: 30px;
+	color: black;
 }
 
 .plat {
-	font-family: "Patrick+Hand";
+	/*font-family: "Patrick+Hand";*/
 	background-color: #fcdfdb;
-	margin: 0 50px;
+	color: #3D1319;
 }
 
-.plat ul {
-	list-style-type: none;
-	text-align: left;
-	margin-top: 15px;
-	padding: 0px 30px 30px;
-	color: #7A5457;
-}
-
-ul li {
-	width: 90%; 
-	margin-bottom: 10px;
-}
-
-.haut-conteneur .music {
+.haut-plat .music {
 	font-size: 60px;
 	padding: 50px 0 0 0;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	/*margin-bottom: 20px 0 0 0;*/
 }
 
-.haut-conteneur h3 {
+.haut-plat h3 {
 	font-family: Satisfy;
-	color: #4B2227;
-	font-size: 30px;
-	padding: 0 0 10px 0;
-	margin: 10px 0 10px 0;
+	/*color: #3D1319;*/
+	font-size: 40px;
+	padding: 0 0 20px 0;
+	margin: 10px 0 40px 0;
 }
 
-h4 {
-	font-size: 20px;
-	color: #593136;
-	padding-bottom: 0px;
-	margin-bottom: 0;
-}
-
-.bas-conteneur .music {
-	font-size: 36px;
-	padding: 40px 0 40px 0;
-	margin-right: 5px;
-}
-
-.bas-conteneur span {
-	color : #4B2227;
-	font-size: 22px;
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3 {
 	font-family: Satisfy;
-	font-weight: bold;
+	font-size: 25px;
+}
+
+h3:hover {
+	/*text-decoration:underline;*/
+}
+
+
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3::before,
+.categorie-entree
+.categorie-plat
+.categorie-dessert, h3::after {
+	content: '';
+	display: inline-block;
+	height:4px;
+	background: #593136;
+	/*position: absolute;*/
+}
+
+.categorie-entree h3::before,
+.categorie-entree h3::after {
+	width: 170px;
+}
+
+.categorie-entree h3::before {
+	text-align: left;
+	margin: 0 40px 0 0px;
+}
+
+.categorie-entree h3::after {
+	text-align: right;
+	margin: 0 0px 0 40px;
+}
+
+ul {
+	font-size: 17px;
+	list-style-type: none;
+	margin: 20px 30px 50px 30px;
+}
+
+ul li {
+	text-align: left;
+	margin-bottom: 15px;
 }
 
 .prix {
 	float: right;
 }
+
+.bas-plat .music {
+	font-size: 36px;
+	padding: 40px 0 40px 0;
+	margin-right: 5px;
+	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bas-plat span {
+	color : #4B2227;
+	font-size: 25px;
+	font-family: Satisfy;
+	font-weight: bold;
+}
+
 /*
 .prix::after {
 	content: "€";
-}
-*/
-
-/*
-
-
-h3:before{
-content: "";
-display:block;
-width: 120px;
-height:2px;
-background: #000;
-position: absolute;
-left: 0;
-top: 50%;
-z-index: -2;
-}
-h3:after{
-content: "";
-display:block;
-width: 120px;
-height:2px;
-background: #000;
-position: absolute;
-right: 0;
-top: 50%;
-z-index: -2;
-}
-span{
-background: #fff
 }
 */
