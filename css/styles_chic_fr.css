@@ -1,14 +1,199 @@
-.plat {
-	padding: 30px 50px;
-	background-color: #FFF5FE;
+
+
+@media screen and (max-width: 1280px) {
+	
+    body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #conteneur-ohmyfood {
+	margin: 0 auto;
+	padding: 0;
+	}
+
+    #conteneur-ohmyfood
+	.menu {
+	}
+
+	.prochainement {
+	width: 30%;
+	margin: 20px auto 0;
+	}
+
+	footer {
+		max-width: 100%;
+	}
 }
-/* Couleur du <h2> (Le chic à la française */ 
-.plat h2 {
-	padding: 20px 0 30px;
-	font-size: 30px;
+
+
+
+/*
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    #conteneur-ohmyfood
+    .menu {
+	width: 50%;
+	text-align: center;
+	display: flex;
+	box-shadow: 0 0 4px 4px #ddd;
+	text-decoration: none;
+	}
+
+	#conteneur-note-enchantee {
+	margin: 20px auto 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*
+
+#conteneur-chic-fr {
+	margin: 20px auto 100px;
+}
+
+.plat {
+	background-color: #FFF5FE;
+	padding: 20px 0 30px 0;
+}
+
+
+.titre-plat h3 {
+	font-family: Kalam, cursive;
+	font-size: 40px;
+	padding: 30px 0 30px 0;
+	margin: 10px 0 10px 0;
 	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+
+h3 {
+	font-family: Kalam, cursive;
+	font-size: 20px;
+	color: #3D1319;
+	padding: 5px 0 5px 0;
+}
+
+
+.categorie-entree h3 {
+	color: #C8781A;
+}
+
+.categorie-plat h3 {
+	color: #B580AB;
+}
+
+.categorie-dessert h3 {
+	color: #9B80DB;
+}
+
+.categorie-entree ul {
+	color: #C8781A;
+}
+
+.categorie-plat ul {
+	color: #AE77A4;
+}
+
+.categorie-dessert ul {
+	color: #9B81DB;
+}
+
+
+ul {
+	font-size: 18px;
+	list-style-type: none;
+	text-align: left;
+	margin: 10px 10px 30px 10px;
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+.prix {
+	float: right;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*........ Plat chic à la française ...............*/
+/*
+.categorie-entree, h3 {
+	color: #CA7D22;
+}
+
+/*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.plat {
+	
 }
 
 ul {
@@ -38,27 +223,21 @@ ul li {
 }
 
 .maron h3 {
-	color: #CA7D22;
 }
 
 .maron ul {
-	color: #C8781A;
 }
 
 .violet h3 {
-	color: #B580AB;
 }
 
 .violet ul {
-	color: #AE77A4;
 }
 
 .bleu h3 {
-	color: #9B80DB;
 }
 
 .bleu ul {
-	color: #9B81DB;
 }
 
 /*

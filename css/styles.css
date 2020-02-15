@@ -1,38 +1,27 @@
-html {
-	background-color: #ddd;
-}
-
 body {
-	background-color: white;
+
+	background-color: #ddd;
 	text-align: center;
-	padding: 0 0 30px 0;
-}
-
-body, header, footer {
-	max-width: 700px;
-	width: 100%;
-	margin: auto;
-}
-
-header,
-footer {
-	background-color: #569C87;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
+	font-family: Roboto, cursive;
+	background-color: #569C87;
+	color: #F5C74A;
 	font-size: 46px;
 	margin: 0;
 	padding: 26px;
 }
 
-h1,
-footer a,
-.prochainement a {
-	color: #F5C74A;
-	font-family: Roboto, cursive;
+header, footer {
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 footer {
+	background-color: #569C87;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -41,8 +30,11 @@ footer {
 }
 
 footer a {
-	font-size: 18px;
+	font-family: Roboto, cursive;
+	font-size: 20px;
+	color: #F5C74A;
 	text-decoration: none;
+	
 }
 
 footer a:first-child {
@@ -56,9 +48,11 @@ footer a:last-child {
 }
 
 /* 100px de bootom pour pouvoir fixer le footer sans cacher le contenue de la page */
-#conteneur-ohmyfood,
-#conteneur-note-enchantee {
-	margin: 20px auto 100px;
+#accueil-ohmyfood {
+	background-color: white;
+	max-width: 700px;
+	margin: auto;
+	padding-bottom: 100px;
 }
 
 .menu {
@@ -178,11 +172,13 @@ h2 {
 }
 
 .prochainement a {
-	/*color: #F5C74A;*/
+	color: #F5C74A;
+	font-size: 20px;
+	/*font-family: Roboto, cursive;*/
 	text-decoration: none;
 }
 
-/* le pied du page */
+/*  Animation footer */
 footer a:hover {
    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
    transform: translate3d(0, 0, 0);
@@ -203,7 +199,6 @@ footer a:hover {
    40%, 60% {
    transform: translate3d(4px, 0, 0);
 }
-
 }
 
 .points {
@@ -232,58 +227,452 @@ footer a:hover {
 @keyframes sk-bouncedelay {
    0%, 80%, 100% { 
    transform: scale(0);
-}
+	}
    40% { 
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
    }
 }
 
+/* .......... Plat note enchantée .........*/
+#plat-note-enchantee {
+	background-color: white;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
 
-
-/* plat la note enchantée */
-#conteneur-note-enchantee h2 {
-	margin: 20px 0 10px 0;
+#plat-note-enchantee
+h2 {
+	margin: 0px 0 10px 0;
+	padding-top: 20px;
 	font-size: 25px;
 	color: #353535;
 }
 
+#plat-note-enchantee
 .plat {
-	/*font-family: "Patrick+Hand";*/
+	padding-bottom: 40px;
 	background-color: #fcdfdb;
-	color: #3D1319;
-	margin: 0 20px 0 20px;
 }
 
-
-.haut-plat .music {
-	font-size: 60px;
-	padding: 50px 0 0 0;
+#plat-note-enchantee
+.titre-plat
+.music,
+.pied-plat
+.music {
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.haut-plat h3 {
-	font-family: Satisfy;
-	/*color: #3D1319;*/
-	font-size: 40px;
-	padding: 0 0 20px 0;
-	margin: 10px 0 40px 0;
+#plat-note-enchantee
+.titre-plat
+.music {
+	font-size: 60px;
+	padding: 40px 0 0 0;
+	margin: 0;
 }
 
-.categorie-entree
-.categorie-plat
-.categorie-dessert, h3 {
+#plat-note-enchantee
+.titre-plat
+h3 {
 	font-family: Satisfy;
+	color: #3D1319;
+	font-size: 50px;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+
+#plat-note-enchantee
+h3 {
+	font-size: 30px;
+	color: #3D1319;
+	font-family: Satisfy;
+}
+
+#plat-note-enchantee
+ul {
+	font-size: 18px;
+	color: #3D1319;
+	list-style-type: none;
+	text-align: left;
+	padding: 0 30px 0 40px;
+	margin: 0;
+}
+
+#plat-note-enchantee
+ul li {
+	margin-bottom: 15px;
+}
+
+#plat-note-enchantee
+.prix {
+	float: right;
+}
+
+.pied-plat .music {
+	margin-top: 30px;
+	font-size: 36px;
+	padding-right: 10px;
+}
+
+.pied-plat span {
+	color : #4B2227;
+	font-size: 25px;
+	font-family: Satisfy;
+	font-weight: bold;
+}
+
+
+
+/* ............ Plat le chic à la française ............*/
+
+#plat-chic-fr {
+	background-color: #FFF5FE;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+#plat-chic-fr
+.titre-plat h3 {
+	font-family: Kalam, cursive;
+	font-size: 40px;
+	padding: 40px 0 30px 0;
+	margin: 0;
+	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#plat-chic-fr
+h3 {
+	font-family: Kalam, cursive;
+	font-size: 20px;
+	color: #3D1319;
+	padding: 5px 0 5px 0;
+}
+
+#plat-chic-fr
+.categorie-entree
+h3 {
+	color: #C8781A;
+}
+
+#plat-chic-fr
+.categorie-plat
+h3 {
+	color: #B580AB;
+}
+
+#plat-chic-fr
+.categorie-dessert
+h3 {
+	color: #9B80DB;
+}
+
+#plat-chic-fr
+.categorie-entree
+ul {
+	color: #C8781A;
+}
+
+#plat-chic-fr
+.categorie-plat
+ul {
+	color: #AE77A4;
+}
+
+#plat-chic-fr
+.categorie-dessert
+ul {
+	color: #9B81DB;
+}
+
+#plat-chic-fr
+ul {
+	font-size: 18px;
+	list-style-type: none;
+	text-align: left;
+	padding: 0 30px 0 40px;
+	margin: 0;
+}
+
+#plat-chic-fr
+ul li {
+	margin-bottom: 15px;
+}
+
+#plat-chic-fr
+.prix {
+	float: right;
+}
+
+
+/* ................... Plat le délice des papilles ..........................*/
+
+#plat-delice-papilles {
+	background-color: #EDEFEF;
+	color: #565757;
+	font-family: kalam;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+#plat-delice-papilles
+.titre-plat
+h3 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 35px;
+	padding: 40px 0 30px 0;
+	margin: 0;
+	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#plat-delice-papilles
+h3 {
+	font-family: Kalam, cursive;
+	font-size: 20px;
+	padding: 5px 0 5px 0;
+	margin: 0;
+}
+
+#plat-delice-papilles
+ul {
+	font-size: 18px;
+	list-style-type: none;
+	text-align: left;
+	padding: 0 30px 0 40px;
+	margin: 0;
+}
+
+#plat-delice-papilles
+ul li {
+	margin-bottom: 15px;
+}
+
+#plat-delice-papilles
+.prix {
+	float: right;
+}
+
+
+/* ............... Plat la palette du goût .........*/
+
+#plat-palettes-gout {
+	background-color: #FDFFFD;
+	color: #8F8F8F;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+#plat-palettes-gout
+.titre-plat
+h3 {
+	font-family: 'Courgette', cursive;
+	font-size: 40px;
+	padding: 40px 0 40px 0;
+	background: -webkit-linear-gradient(180deg, #BEFF7F, #43973D);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#plat-palettes-gout
+h3 {
+	font-family: Kalam, cursive;
+	font-size: 20px;
+	padding: 5px 0 5px 0;
+	margin: 0;
+}
+
+#plat-palettes-gout
+ul {
+	font-size: 18px;
+	list-style-type: none;
+	text-align: left;
+	padding: 0 30px 0 40px;
+	margin: 0;
+}
+
+#plat-palettes-gout
+ul li {
+	margin-bottom: 15px;
+}
+
+#plat-palettes-gout
+.prix {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ............. Plat  le délice des papilles .............*/
+/*
+#conteneur-delice-papilles h3 {
+	font-family: 'Homemade Apple', cursive;
+	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*color: #CA7D22;*//*
+}
+
+#conteneur-delice-papilles .plat {
+
+}
+
+#conteneur-delice-papilles .categorie-entree h3 {
+}
+
+
+#conteneur-delice-papilles .categorie-plat h3 {
+}
+
+
+#conteneur-delice-papilles .categorie-dessert h3 {
+}
+
+
+#conteneur-delice-papilles .categorie-entree ul {
+}
+
+
+#conteneur-delice-papilles .categorie-plat ul {
+}
+
+
+#conteneur-delice-papilles .categorie-dessert ul {
+}
+
+
+
+/* ............... Plat la palette du goût .........*//*
+#conteneur-palettes-gout h3 {
+}
+
+
+#conteneur-palette-gout .plat {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*................propriétées commun entre les plats ..........*/
+/*
+.categorie-entree,
+.categorie-plat,
+.categorie-dessert, h3 {
 	font-size: 25px;
 }
+/*
+.categorie-entree.categorie-plat.categorie-dessert, h3:hover {
+	text-decoration:underline;
+}
+*/
+/*
+.plat {
+	margin: 0;
+}
+/*
+#conteneur-chic-fr
+#conteneur-delice-papilles
+#conteneur-palette-gout, h3 {
+	padding: 20px 0 30px;
+	font-size: 30px;
+}
+*/
+/*
+ul {
+	font-size: 16px;
+	list-style-type: none;
+	text-align: left;
+	margin: 20px 30px 50px 30px;
+	/*padding: 0px 30px 30px;*/*//*
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+.prix {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 h3:hover {
 	/*text-decoration:underline;*/
 }
 
-
+/*
 .categorie-entree
 .categorie-plat
 .categorie-dessert, h3::before,
@@ -294,7 +683,7 @@ h3:hover {
 	display: inline-block;
 	height:4px;
 	background: #593136;
-	/*position: absolute;*/
+	/*position: absolute;*//*
 }
 
 .categorie-entree h3::before,
@@ -312,36 +701,8 @@ h3:hover {
 	margin: 0 0px 0 40px;
 }
 
-ul {
-	font-size: 17px;
-	list-style-type: none;
-	margin: 20px 30px 50px 30px;
-}
 
-ul li {
-	text-align: left;
-	margin-bottom: 15px;
-}
 
-.prix {
-	float: right;
-}
-
-.bas-plat .music {
-	font-size: 36px;
-	padding: 40px 0 40px 0;
-	margin-right: 5px;
-	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.bas-plat span {
-	color : #4B2227;
-	font-size: 25px;
-	font-family: Satisfy;
-	font-weight: bold;
-}
 
 /*
 .prix::after {
