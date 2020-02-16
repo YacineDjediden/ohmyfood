@@ -1,45 +1,141 @@
-#conteneur-note-enchantee h2 {
+
+/* .......... Plat note enchantée .........*/
+/*
+#conteneur-note-enchantee {
+}
+*/
+
+/*
+h2 {
 	margin: 20px 0 10px 0;
-	font-weight: bold;
-	font-size: 30px;
-	color: black;
+	font-size: 25px;
+	color: #353535;
 }
 
 .plat {
-	/*font-family: "Patrick+Hand";*/
 	background-color: #fcdfdb;
-	color: #3D1319;
+	/*color: #3D1319;*//*
 }
 
-.haut-plat .music {
-	font-size: 60px;
-	padding: 50px 0 0 0;
+.titre-plat .music,
+.pied-plat .music {
 	background: -webkit-linear-gradient(180deg, #f7926e, #f15260);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/*margin-bottom: 20px 0 0 0;*/
 }
 
-.haut-plat h3 {
+
+.titre-plat .music {
+	font-size: 60px;
+	padding: 40px 0 0 0;
+	margin: 0;
+}
+
+.titre-plat h3 {
 	font-family: Satisfy;
-	/*color: #3D1319;*/
-	font-size: 40px;
+	color: #3D1319;
+	font-size: 50px;
 	padding: 0 0 20px 0;
-	margin: 10px 0 40px 0;
+	margin: 0;
 }
 
-.categorie-entree
-.categorie-plat
-.categorie-dessert, h3 {
+h3 {
+	font-size: 30px;
+	color: #3D1319;
 	font-family: Satisfy;
+}
+
+
+ul {
+	font-size: 18px;
+	color: #3D1319;
+	list-style-type: none;
+	text-align: left;
+	margin: 20px 30px 40px 30px;
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+.prix {
+	float: right;
+}
+
+
+.pied-plat .music {
+	font-size: 36px;
+	padding: 40px 0 40px 0;
+}
+
+.pied-plat span {
+	color : #4B2227;
 	font-size: 25px;
+	font-family: Satisfy;
+	font-weight: bold;
 }
 
-h3:hover {
-	/*text-decoration:underline;*/
+*/ /*............./*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+h3::before,
+h3::after {
+	content: '';
+	background: #593136;
+	width: 170px;
+	height:4px;
+	display: inline-block;
 }
 
+h3::before {
+	text-align: left;
+	margin: 0 40px 0 0px;
+}
 
+h3::after {
+	text-align: right;
+	margin: 0 0px 0 40px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.........................................................................*/
+/*
 .categorie-entree
 .categorie-plat
 .categorie-dessert, h3::before,
@@ -50,7 +146,7 @@ h3:hover {
 	display: inline-block;
 	height:4px;
 	background: #593136;
-	/*position: absolute;*/
+	/*position: absolute;*//*
 }
 
 .categorie-entree h3::before,
