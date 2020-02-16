@@ -1,5 +1,4 @@
 body {
-
 	background-color: #ddd;
 	text-align: center;
 	margin: 0;
@@ -239,7 +238,7 @@ footer a:hover {
 	background-color: white;
 	max-width: 700px;
 	margin: 0 auto;
-	padding-bottom: 100px;
+	padding-bottom: 120px;
 }
 
 #plat-note-enchantee
@@ -332,13 +331,13 @@ ul li {
 	background-color: #FFF5FE;
 	max-width: 700px;
 	margin: 0 auto;
-	padding-bottom: 100px;
+	padding: 20px 0 120px 0;
 }
 
 #plat-chic-fr
-.titre-plat h3 {
+h2 {
 	font-family: Kalam, cursive;
-	font-size: 40px;
+	font-size: 35px;
 	padding: 40px 0 30px 0;
 	margin: 0;
 	background: -webkit-linear-gradient(180deg, #915DF6, #D37D22);
@@ -353,6 +352,37 @@ h3 {
 	color: #3D1319;
 	padding: 5px 0 5px 0;
 }
+
+#plat-chic-fr h3::before,
+#plat-chic-fr h3::after {
+	content: '';
+	background: #593136;
+	width: 170px;
+	height:4px;
+	display: inline-block;
+}
+
+#plat-chic-fr h3::before {
+	text-align: left;
+	margin: 0 40px 0 0px;
+}
+
+#plat-chic-fr h3::after {
+	text-align: right;
+	margin: 0 0px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #plat-chic-fr
 .categorie-entree
@@ -418,12 +448,11 @@ ul li {
 	font-family: kalam;
 	max-width: 700px;
 	margin: 0 auto;
-	padding-bottom: 100px;
+	padding: 20px 0 120px 0;
 }
 
 #plat-delice-papilles
-.titre-plat
-h3 {
+h2 {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 35px;
 	padding: 40px 0 30px 0;
@@ -468,14 +497,14 @@ ul li {
 	color: #8F8F8F;
 	max-width: 700px;
 	margin: 0 auto;
-	padding-bottom: 100px;
+	padding: 20px 0 120px 0;
 }
 
 #plat-palettes-gout
-.titre-plat
-h3 {
+h2 {
 	font-family: 'Courgette', cursive;
-	font-size: 40px;
+	font-size: 35px;
+	margin: 0;
 	padding: 40px 0 40px 0;
 	background: -webkit-linear-gradient(180deg, #BEFF7F, #43973D);
 	-webkit-background-clip: text;
@@ -509,203 +538,7 @@ ul li {
 	float: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ............. Plat  le délice des papilles .............*/
-/*
-#conteneur-delice-papilles h3 {
-	font-family: 'Homemade Apple', cursive;
-	background: -webkit-linear-gradient(180deg, #77BBF5, #1A3CDE);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	/*color: #CA7D22;*//*
-}
-
-#conteneur-delice-papilles .plat {
-
-}
-
-#conteneur-delice-papilles .categorie-entree h3 {
-}
-
-
-#conteneur-delice-papilles .categorie-plat h3 {
-}
-
-
-#conteneur-delice-papilles .categorie-dessert h3 {
-}
-
-
-#conteneur-delice-papilles .categorie-entree ul {
-}
-
-
-#conteneur-delice-papilles .categorie-plat ul {
-}
-
-
-#conteneur-delice-papilles .categorie-dessert ul {
-}
-
-
-
-/* ............... Plat la palette du goût .........*//*
-#conteneur-palettes-gout h3 {
-}
-
-
-#conteneur-palette-gout .plat {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*................propriétées commun entre les plats ..........*/
-/*
-.categorie-entree,
-.categorie-plat,
-.categorie-dessert, h3 {
-	font-size: 25px;
-}
-/*
-.categorie-entree.categorie-plat.categorie-dessert, h3:hover {
-	text-decoration:underline;
-}
-*/
-/*
-.plat {
-	margin: 0;
-}
-/*
-#conteneur-chic-fr
-#conteneur-delice-papilles
-#conteneur-palette-gout, h3 {
-	padding: 20px 0 30px;
-	font-size: 30px;
-}
-*/
-/*
-ul {
-	font-size: 16px;
-	list-style-type: none;
-	text-align: left;
-	margin: 20px 30px 50px 30px;
-	/*padding: 0px 30px 30px;*/*//*
-}
-
-ul li {
-	margin-bottom: 15px;
-}
-
-.prix {
-	float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-h3:hover {
-	/*text-decoration:underline;*/
-}
-
-/*
-.categorie-entree
-.categorie-plat
-.categorie-dessert, h3::before,
-.categorie-entree
-.categorie-plat
-.categorie-dessert, h3::after {
-	content: '';
-	display: inline-block;
-	height:4px;
-	background: #593136;
-	/*position: absolute;*//*
-}
-
-.categorie-entree h3::before,
-.categorie-entree h3::after {
-	width: 170px;
-}
-
-.categorie-entree h3::before {
-	text-align: left;
-	margin: 0 40px 0 0px;
-}
-
 .categorie-entree h3::after {
 	text-align: right;
 	margin: 0 0px 0 40px;
 }
-
-
-
-
-/*
-.prix::after {
-	content: "€";
-}
-*/
